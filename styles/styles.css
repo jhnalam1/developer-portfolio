@@ -1,34 +1,36 @@
 /* css start */
+*{
+    text-decoration: none;
+}
 body{
     font-family: 'Open Sans', sans-serif;
 }
-.text-primary{
-    color: #FD6E0A;
-}
+
 nav{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-}
-nav ul li{
-    list-style: none;
-    margin-right: 50px;
-}
-nav a{
-    text-decoration: none;
-    color: #474747;
+    margin: 0 20px;
 }
 nav ul{
     display: flex;
+    /* align-items: center; */
 }
-.nav-heading{
-    color: #181818;
-    font-size: 45px;
-    font-weight: 800;
+nav ul li{
+    list-style: none;
+    
 }
-nav ul li:hover{
-    background: #FD6E0A;
-    transition: all linear .3s;
+nav ul li a{
+    padding: 15px 35px;
+    color: #454545;
+
 }
-nav ul li:hover a{
+nav ul li a:hover{
     color: #fff;
+    background: tomato;
+    transition: all linear .3s;
+    border-radius: 5px;
+}
+nav h3 span{
+    color: tomato;
 }
